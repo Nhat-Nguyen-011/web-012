@@ -1,0 +1,21 @@
+{
+  "name": "home-app",
+  "version": "1.0.0",
+  "description": "the home page of the portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Nhat nguyen",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
