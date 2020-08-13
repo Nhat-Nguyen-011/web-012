@@ -427,6 +427,17 @@ h3 {
   }
 }
 
+/* .lang-selector {
+  padding-left: 23px !important;
+} */
+
+@media (min-width: 991px) {
+  /* line 56, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
+  .lang-selector {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 56, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
   .boxed-btn5 {
@@ -438,6 +449,13 @@ h3 {
   /* line 56, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
   .boxed-btn5 {
     padding: 12px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 56, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
+  .retard-logo {
+    width: 117.11px !important;
   }
 }
 
@@ -690,6 +708,17 @@ h3 {
   padding-bottom: 3px;
   top: -11px;
   right: -5px;
+}
+
+/* #language-selector {
+  font-size: 24px;
+} */
+
+@media (max-width: 767px) {
+  /* line 12, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_slick-nav.scss */
+  #language-selector {
+    font-size: 20px !important;
+  }
 }
 
 @media (max-width: 767px) {
