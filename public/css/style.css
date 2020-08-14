@@ -544,6 +544,7 @@ h3 {
 }
 
 /* line 10, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_section_title.scss */
+/* menu section name */
 .section_title h3 {
   font-size: 50px;
   font-weight: 700;
@@ -556,8 +557,9 @@ h3 {
 @media (max-width: 767px) {
   /* line 10, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_section_title.scss */
   .section_title h3 {
-    font-size: 30px;
+    font-size: 36px;
     line-height: 36px;
+    font-weight: 800;
   }
 }
 
@@ -2956,11 +2958,19 @@ h3 {
 }
 
 /* line 38, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_delicious.scss */
+/* menu item name */
 .best_burgers_area .single_delicious .info h3 {
   font-size: 30px;
   color: #1a0d01;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
+}
+
+@media (max-width: 767px) {
+  .best_burgers_area .single_delicious .info h3 {
+    font-size: 30px;
+    font-weight: 600;
+  }
 }
 
 /* line 44, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_delicious.scss */
