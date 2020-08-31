@@ -22,6 +22,10 @@
     <link rel="stylesheet" href="css/animate.css" />
     <link rel="stylesheet" href="css/slicknav.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/698c78f476.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
   </head>
 
@@ -29,8 +33,8 @@
     <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve your
-        experience and security.
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
       </p>
     <![endif]-->
     <!-- header-start -->
@@ -45,50 +49,52 @@
                     <ul id="navigation">
                       <li><a href="index.html">home</a></li>
                       <li><a href="Menu.html">Menu</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li>
-                        <a href="#">blog <i class="ti-angle-down"></i></a>
-                        <ul class="submenu">
-                          <li><a href="blog.html">News</a></li>
-                          <li><a href="single-blog.html">Events</a></li>
-                        </ul>
-                      </li>
+                      <li><a href="#">Barista Training</a></li>
                       <li><a href="franchise.html">Franchise</a></li>
-                      <li><a class="active" href="contact.html">Contact</a></li>
+                      <!-- <li><a href="about.html">About</a></li> -->
+                      <li><a href="blog.html">News</a></li>
+                      <li>
+                        <a class="active" href="contact.html">Locations</a>
+                      </li>
                     </ul>
                   </nav>
                 </div>
               </div>
               <div class="col-xl-2 col-lg-2">
-                <div class="row" style="text-align: center; margin-right: 0px;">
-                  <div class="col-4 lang-selector" style="text-align: left;">
+                <div
+                  class="row"
+                  style="
+                    text-align: center;
+                    margin-right: 0px;
+                    margin-left: 0px;
+                  "
+                >
+                  <div class="col-4 lang-selector" style="text-align: left">
                     <a href="#">
                       <i
                         id="language-selector"
                         class="lang-select"
                         style="
                           font-style: normal;
-                          color: #f2c64d;
+                          color: white;
                           font-size: 24px;
-                          line-height: 100px;
+                          line-height: 60px;
                         "
                         >VIE</i
                       >
                     </a>
                   </div>
-                  <div class="col-4 col-lg-12" style="text-align: center;">
-                    <div class="logo_background">
-                      <div class="logo-img">
-                        <a href="index.html">
-                          <img
-                            src="img/Bachviet_logo.svg"
-                            height="70px"
-                            width="auto"
-                            alt=""
-                            class="retard-logo"
-                          />
-                        </a>
-                      </div>
+                  <div class="col-4 col-lg-12 d-flex justify-content-center">
+                    <div class="logo-img">
+                      <a href="index.html">
+                        <img
+                          src="img/Bachviet_logo_green.svg"
+                          height="70px"
+                          width="auto"
+                          alt=""
+                          class="retard-logo"
+                        />
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -102,7 +108,7 @@
                           <i
                             id="language-selector"
                             class="lang-select"
-                            style="font-style: normal;"
+                            style="font-style: normal"
                             >VIE</i
                           >
                         </a>
@@ -119,7 +125,11 @@
                       </li>
                       <li>
                         <a href="#">
-                          <img src="img/social/zalo.png" height="24px" with="auto" />
+                          <img
+                            src="img/social/zalo.png"
+                            height="24px"
+                            with="auto"
+                          />
                         </a>
                       </li>
                     </ul>
@@ -148,50 +158,249 @@
     <!-- ================ contact section start ================= -->
     <section class="contact-section">
       <div class="container">
-        <div class="d-none d-sm-block mb-5 pb-4">
-          <div
-            id="map"
-            style="height: 480px; position: relative; overflow: hidden;"
-          ></div>
-          <script>
-            function initMap() {
-              var uluru = {
-                lat: -25.363,
-                lng: 131.044,
-              };
-              var grayStyles = [
-                {
-                  featureType: 'all',
-                  stylers: [
-                    {
-                      saturation: -90,
-                    },
-                    {
-                      lightness: 50,
-                    },
-                  ],
-                },
-                {
-                  elementType: 'labels.text.fill',
-                  stylers: [
-                    {
-                      color: '#ccdee9',
-                    },
-                  ],
-                },
-              ];
-              var map = new google.maps.Map(document.getElementById('map'), {
-                center: {
-                  lat: -31.197,
-                  lng: 150.744,
-                },
-                zoom: 9,
-                styles: grayStyles,
-                scrollwheel: false,
-              });
-            }
-          </script>
-          <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&amp;callback=initMap"></script>
+        <div class="col-12">
+          <h2 class="contact-title">Locations</h2>
+        </div>
+        <div class="row" style="margin-bottom: 30px">
+          <div class="col-lg-5 col-md-12" style="margin-bottom: 15px">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-left collapsed address_span"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseOne"
+                      aria-expanded="false"
+                      aria-controls="collapseOne"
+                    >
+                      <div>Q.Bình Thạnh (2)</div>
+                      <i class="fa fa-arrow-right"></i>
+                    </button>
+                  </h2>
+                </div>
+
+                <div
+                  id="collapseOne"
+                  class="collapse"
+                  aria-labelledby="headingOne"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    <div class="store_address">
+                      <i class="fas fa-map-marker-alt"></i
+                      ><span>145 Dinh Bo Linh, p.26 ,q.Binh Thanh</span>
+                    </div>
+                    <div class="store_address">
+                      <i class="fas fa-map-marker-alt"></i
+                      ><span>145 Dinh Bo Linh, p.26 ,q.Binh Thanh</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-left collapsed address_span"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      <div>Q.Bình Thạnh (2)</div>
+                      <i class="fa fa-arrow-right"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseTwo"
+                  class="collapse"
+                  aria-labelledby="headingTwo"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    <div class="store_address">
+                      <i class="fas fa-map-marker-alt"></i
+                      ><span>145 Dinh Bo Linh, p.26 ,q.Binh Thanh</span>
+                    </div>
+                    <div class="store_address">
+                      <i class="fas fa-map-marker-alt"></i
+                      ><span>145 Dinh Bo Linh, p.26 ,q.Binh Thanh</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-left collapsed address_span"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      <div>Q.Bình Thạnh (2)</div>
+                      <i class="fa fa-arrow-right"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseThree"
+                  class="collapse"
+                  aria-labelledby="headingThree"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    <div class="store_address">
+                      <i class="fas fa-map-marker-alt"></i
+                      ><span>145 Dinh Bo Linh, p.26 ,q.Binh Thanh</span>
+                    </div>
+                    <div class="store_address">
+                      <i class="fas fa-map-marker-alt"></i
+                      ><span>145 Dinh Bo Linh, p.26 ,q.Binh Thanh</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-left collapsed address_span"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      <div>Q.Bình Thạnh (2)</div>
+                      <i class="fa fa-arrow-right"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseFour"
+                  class="collapse"
+                  aria-labelledby="headingFour"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    <div class="store_address">
+                      <i class="fas fa-map-marker-alt"></i
+                      ><span>145 Dinh Bo Linh, p.26 ,q.Binh Thanh</span>
+                    </div>
+                    <div class="store_address">
+                      <i class="fas fa-map-marker-alt"></i
+                      ><span>145 Dinh Bo Linh, p.26 ,q.Binh Thanh</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-left collapsed address_span"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      <div>Q.Bình Thạnh (2)</div>
+                      <i class="fa fa-arrow-right"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseFive"
+                  class="collapse"
+                  aria-labelledby="headingFive"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    <div class="store_address">
+                      <i class="fas fa-map-marker-alt"></i
+                      ><span>145 Dinh Bo Linh, p.26 ,q.Binh Thanh</span>
+                    </div>
+                    <div class="store_address">
+                      <i class="fas fa-map-marker-alt"></i
+                      ><span>145 Dinh Bo Linh, p.26 ,q.Binh Thanh</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSix">
+                  <h2 class="mb-0">
+                    <button
+                      class="btn btn-link btn-block text-left collapsed address_span"
+                      type="button"
+                      data-toggle="collapse"
+                      data-target="#collapseSix"
+                      aria-expanded="false"
+                      aria-controls="collapseSix"
+                    >
+                      <div>Q.Bình Thạnh (2)</div>
+                      <i class="fa fa-arrow-right"></i>
+                    </button>
+                  </h2>
+                </div>
+                <div
+                  id="collapseSix"
+                  class="collapse"
+                  aria-labelledby="headingSix"
+                  data-parent="#accordionExample"
+                >
+                  <div class="card-body">
+                    <div class="store_address">
+                      <i class="fas fa-map-marker-alt"></i
+                      ><span>145 Dinh Bo Linh, p.26 ,q.Binh Thanh</span>
+                    </div>
+                    <div class="store_address">
+                      <i class="fas fa-map-marker-alt"></i
+                      ><span>145 Dinh Bo Linh, p.26 ,q.Binh Thanh</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <!--The div element for the map -->
+            <div id="map" style="width: 100%; height: 700px"></div>
+            <script>
+              // Initialize and add the map
+              function initMap() {
+                // The location of Uluru
+                var uluru = { lat: -25.344, lng: 131.036 };
+                // The map, centered at Uluru
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 4,
+                  center: uluru
+                });
+                // The marker, positioned at Uluru
+                var marker = new google.maps.Marker({
+                  position: uluru,
+                  map: map
+                });
+              }
+            </script>
+            <!--Load the API from the specified URL
+      * The async attribute allows the browser to render the page while the API loads
+      * The key parameter will contain your own API key (which is not needed for this tutorial)
+      * The callback parameter executes the initMap() function
+      -->
+            <script
+              defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYF99nKkV1pxpvmgxIIA3T9r1pYSvjXE0&callback=initMap"
+            ></script>
+          </div>
         </div>
 
         <div class="row">
@@ -262,7 +471,10 @@
                 </div>
               </div>
               <div class="form-group mt-3">
-                <button type="submit" class="button button-contactForm boxed-btn">
+                <button
+                  type="submit"
+                  class="button button-contactForm boxed-btn"
+                >
                   Send
                 </button>
               </div>
@@ -303,9 +515,7 @@
           <div class="row">
             <div class="col-xl-4 col-md-6 col-lg-4">
               <div class="footer_widget text-left">
-                <h3 class="footer_title pos_margin">
-                  Office
-                </h3>
+                <h3 class="footer_title pos_margin">Office</h3>
                 <p>
                   205 Nguyễn Xí, Phường 26,<br />
                   Bình Thạnh, TPHCM<br />
@@ -316,9 +526,7 @@
             </div>
             <div class="col-xl-4 col-md-6 col-lg-4">
               <div class="footer_widget text-left">
-                <h3 class="footer_title pos_margin">
-                  Shop location
-                </h3>
+                <h3 class="footer_title pos_margin">Shop location</h3>
                 <p>
                   123 Le Quang Dinh, Binh Thanh <br />
                   (123)-456-7890 <br />
@@ -334,9 +542,7 @@
             </div>
             <div class="col-xl-4 col-md-12 col-lg-4">
               <div class="footer_widget">
-                <h3 class="footer_title">
-                  Stay Connected
-                </h3>
+                <h3 class="footer_title">Stay Connected</h3>
                 <form action="#" class="newsletter_form">
                   <input type="text" placeholder="Enter your mail" />
                   <button type="submit">Sign Up</button>

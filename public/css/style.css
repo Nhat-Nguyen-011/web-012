@@ -320,19 +320,19 @@ h3 {
   font-size: 14px;
   font-weight: 400;
   border: 0;
-  border: 1px solid #f0542c;
+  border: 1px solid #64ce8d;
   letter-spacing: 3px;
   text-align: center;
-  color: #f0542c !important;
+  color: #64ce8d !important;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 /* line 17, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
 .boxed-btn:hover {
-  background: #f0542c;
+  background: #64ce8d;
   color: #fff !important;
-  border: 1px solid #f0542c;
+  border: 1px solid #64ce8d;
 }
 
 /* line 22, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
@@ -347,7 +347,7 @@ h3 {
 
 /* line 29, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
 .boxed-btn3 {
-  background: #f2c64d;
+  background: #64ce8d;
   color: #fff;
   display: inline-block;
   padding: 18px 44px;
@@ -373,8 +373,8 @@ h3 {
 /* line 47, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
 .boxed-btn3:hover {
   background: transparent;
-  color: #f2c64d !important;
-  border: 1px solid #f2c64d;
+  color: #64ce8d !important;
+  border: 1px solid #64ce8d;
 }
 
 /* line 52, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
@@ -403,15 +403,15 @@ h3 {
   padding: 22px 44px;
   cursor: pointer;
   background: transparent;
-  color: #f0542c !important;
-  border: 1px solid #f0542c;
+  color: #64ce8d !important;
+  border: 1px solid #64ce8d;
 }
 
 /* line 75, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
 .boxed-btn5:hover {
   background: transparent;
   color: #fff !important;
-  background: #f0542c;
+  background: #64ce8d;
   color: #fff;
 }
 
@@ -452,12 +452,11 @@ h3 {
   }
 }
 
-@media (min-width: 992px) and (max-width: 1200px) {
-  /* line 56, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
+/* @media (min-width: 992px) and (max-width: 1200px) {
   .retard-logo {
     width: 117.11px !important;
   }
-}
+} */
 
 /* line 94, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
 .boxed-btn2 {
@@ -509,33 +508,33 @@ h3 {
 
 /* line 131, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
 .line-button:hover {
-  color: #f0542c;
+  color: #64ce8d;
 }
 
 /* line 134, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
 .line-button:hover::before {
-  background: #f0542c;
+  background: #64ce8d;
 }
 
 /* line 138, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
 .book_now {
   display: inline-block;
   font-size: 14px;
-  color: #f0542c;
-  border: 1px solid #f0542c;
+  color: #64ce8d;
+  border: 1px solid #64ce8d;
   text-transform: capitalize;
   padding: 10px 25px;
 }
 
 /* line 145, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_btn.scss */
 .book_now:hover {
-  background: #f0542c;
+  background: #64ce8d;
   color: #fff;
 }
 
 /* line 2, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_section_title.scss */
 .section_title span {
-  color: #f2c64d;
+  color: #64ce8d;
   font-size: 30px;
   font-weight: 400;
   margin-bottom: 18px;
@@ -548,7 +547,7 @@ h3 {
 .section_title h3 {
   font-size: 50px;
   font-weight: 700;
-  color: #1a0d01;
+  color: #0b132b;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   margin-top: 30px;
@@ -666,12 +665,12 @@ h3 {
 /* line 28, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #f0542c;
+  color: #64ce8d;
 }
 
 /* line 32, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a.active {
-  color: #f0542c;
+  color: #64ce8d;
 }
 
 @media (max-width: 767px) {
@@ -783,7 +782,7 @@ h3 {
   padding: 5px;
   right: -8px;
   margin-top: -15px;
-  top: -50px;
+  top: -35px;
 }
 
 /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
@@ -870,16 +869,14 @@ h3 {
 }
 
 @media (max-width: 767px) {
-  /* line 43, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
-    width: 70px;
+    height: 50px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  /* line 43, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
-    width: 70px;
+    height: 60px;
   }
 }
 
@@ -922,7 +919,7 @@ h3 {
 
 /* line 71, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room .socail_links ul li a:hover {
-  color: #f2c64d;
+  color: white;
 }
 
 /* line 78, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
@@ -936,8 +933,8 @@ h3 {
   padding: 12px 26px;
   font-size: 18px;
   font-weight: 400;
-  border: 1px solid #f2c64d;
-  color: #f2c64d;
+  border: 1px solid white;
+  color: white;
   border-radius: 30px;
   font-family: 'Paytone One', sans-serif;
 }
@@ -947,30 +944,30 @@ h3 {
   padding: 12px 26px;
   font-size: 18px;
   font-weight: 400;
-  border: 1px solid #f2c64d;
-  color: #f2c64d;
+  border: 1px solid #64ce8d;
+  color: #64ce8d;
   border-radius: 30px;
   font-family: 'Paytone One', sans-serif;
 }
 
 .book_btn a:hover {
-  background: #f2c64d;
+  background: #64ce8d;
   color: #fff;
-  border: 1px solid #f2c64d;
+  border: 1px solid #64ce8d;
 }
 
 /* line 89, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
 .header-area .main-header-area .book_room .book_btn a:hover {
-  background: #f2c64d;
-  color: #fff;
-  border: 1px solid #f2c64d;
+  background: white;
+  color: #329f5b;
+  border: 1px solid white;
 }
 
 /* line 100, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li {
   display: inline-block;
   position: relative;
-  margin-right: 45px;
+  margin-right: 17px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -990,7 +987,7 @@ h3 {
 /* line 110, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a {
   color: #fff;
-  font-size: 16px;
+  font-size: 15px;
   text-transform: capitalize;
   font-weight: 400;
   display: inline-block;
@@ -1003,14 +1000,14 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 110, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1500px) {
   /* line 110, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
   .header-area .main-header-area .main-menu ul li a {
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
@@ -1037,7 +1034,7 @@ h3 {
 .header-area .main-header-area .main-menu ul li a::before {
   position: absolute;
   content: '';
-  background: #f2c64d;
+  background: white;
   width: 100%;
   height: 2px;
   bottom: 0;
@@ -1058,7 +1055,7 @@ h3 {
 
 /* line 154, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a.active {
-  color: #f2c64d;
+  color: white;
 }
 
 /* line 156, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
@@ -1069,7 +1066,7 @@ h3 {
 
 /* line 161, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
 .header-area .main-header-area .main-menu ul li a:hover {
-  color: #f2c64d;
+  color: white;
 }
 
 /* line 165, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_header.scss */
@@ -1149,7 +1146,7 @@ h3 {
   -webkit-transition: transform 500ms ease, background 500ms ease;
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   padding: 0px 150px;
-  background: #000;
+  background: #329f5b;
 }
 
 @media (max-width: 767px) {
@@ -1187,7 +1184,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_slider.scss */
 .slider_bg_1 {
-  background-image: url(../img/banner/banner-01.jpg);
+  background-image: url(../img/banner/banner_green_1.jpg);
 }
 
 /* line 4, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_slider.scss */
@@ -1280,7 +1277,7 @@ h3 {
 
 /* line 58, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_slider.scss */
 .slider_area .single_slider .slider_text .deal_text {
-  background-image: url(../img/shape/1.png);
+  background-image: url(../img/shape/bgreen.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: inline-block;
@@ -1288,7 +1285,7 @@ h3 {
 }
 
 .logo_background {
-  background-image: url(../img/shape/1.png);
+  background-image: url(../img/shape/green.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: inline-block;
@@ -1343,7 +1340,7 @@ h3 {
   font-size: 20px;
   font-family: 'Paytone One', sans-serif;
   /* font-family: 'Pacifico', cursive; */
-  color: #f2c64d;
+  color: white;
   position: relative;
   margin-top: -20px;
 }
@@ -1990,7 +1987,7 @@ h3 {
 .video_area .video_area_inner a {
   width: 102px;
   height: 102px;
-  background: #f0542c;
+  background: #64ce8d;
   line-height: 102px;
   font-size: 30px;
   color: #fff;
@@ -2057,7 +2054,7 @@ h3 {
   width: 100%;
   height: 100%;
   content: '';
-  background: #1a0d01;
+  background: #0b132b;
   z-index: 1;
   opacity: 0.4;
 }
@@ -2188,7 +2185,7 @@ h3 {
   span {
   font-size: 30px;
   font-weight: 700;
-  color: #f0542c;
+  color: #64ce8d;
   font-family: 'Montserrat', sans-serif;
   display: block;
   margin-bottom: 3px;
@@ -2424,7 +2421,7 @@ h3 {
 
 /* line 278, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_offers.scss */
 .instragram_area {
-  background-color: #513826;
+  background-color: #329f5b;
   display: block;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -2437,7 +2434,7 @@ h3 {
   font-weight: 350;
   line-height: 100px;
   margin-bottom: 50px;
-  color: #f2c64d;
+  color: white;
   font-family: 'Pacifico', cursive;
 }
 
@@ -2584,7 +2581,7 @@ h3 {
 .footer .footer_top .footer_widget .footer_title {
   font-size: 24px;
   font-weight: 700;
-  color: #1a0d01;
+  color: #0b132b;
   text-transform: capitalize;
   margin-bottom: 39px;
   font-family: 'Montserrat', sans-serif;
@@ -2611,7 +2608,7 @@ h3 {
 
 /* line 39, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget .number {
-  color: #f0542c;
+  color: #64ce8d;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
@@ -2746,7 +2743,7 @@ h3 {
   height: 40px;
   border: none;
   color: #fff;
-  background: #f0542c;
+  background: #64ce8d;
   padding: 10px;
   padding: 0 22px;
   cursor: pointer;
@@ -2816,7 +2813,7 @@ h3 {
 /* line 189, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_footer.scss */
 .footer .socail_links ul li a {
   font-size: 18px;
-  color: #f0542c;
+  color: #329f5b;
   width: 50px;
   height: 50px;
   display: inline-block;
@@ -2828,13 +2825,13 @@ h3 {
   line-height: 40px !important;
   margin-right: 10px;
   line-height: 50px !important;
-  border: 1px dashed #f0542c;
+  border: 1px dashed #329f5b;
 }
 
 /* line 202, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_footer.scss */
 .footer .socail_links ul li a:hover {
   color: #fff !important;
-  background: #f0542c;
+  background: #329f5b;
   border-color: transparent;
 }
 
@@ -2984,7 +2981,7 @@ h3 {
 /* menu item name */
 .best_burgers_area .single_delicious .info h3 {
   font-size: 30px;
-  color: #1a0d01;
+  color: #0b132b;
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
 }
@@ -3012,7 +3009,7 @@ h3 {
   display: block;
   font-weight: 700;
   font-size: 24px;
-  color: #f0542c;
+  color: #329f5b;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -3121,8 +3118,8 @@ h3 {
 /* line 65, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_testmonial.scss */
 .testimonial_area .owl-carousel .owl-nav div {
   left: 0;
-  border: 2px solid #f2c64d;
-  color: #f2c64d;
+  border: 2px solid #64ce8d;
+  color: #64ce8d;
   width: 40px;
   height: 40px;
   text-align: center;
@@ -3233,7 +3230,7 @@ h3 {
   left: 0;
   top: 0;
   content: '';
-  background: #f0542c;
+  background: #64ce8d;
   opacity: 0;
   -webkit-transform: scale(0.8);
   -moz-transform: scale(0.8);
@@ -3519,7 +3516,7 @@ sup,
 sub,
 u,
 del {
-  color: #ff5e13;
+  color: #64ce8d;
 }
 
 /* line 93, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_elements.scss */
@@ -3870,7 +3867,7 @@ h6 {
 .generic-blockquote {
   padding: 30px 50px 30px 30px;
   background: #f9f9ff;
-  border-left: 2px solid #ff5e13;
+  border-left: 2px solid #64ce8d;
 }
 
 /* line 353, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_elements.scss */
@@ -4809,7 +4806,7 @@ h6 {
 .section-detail-product-name h3 {
   font-size: 36px;
   font-weight: 700;
-  color: #1a0d01;
+  color: #0b132b;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   margin-top: 30px;
@@ -4849,7 +4846,7 @@ h6 {
 /* line 14, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_blog.scss */
 .blog_area a:hover,
 .blog_area a :hover {
-  background: -webkit-linear-gradient(131deg, #f0542c 0%, #f0542c 99%);
+  background: -webkit-linear-gradient(131deg, #64ce8d 0%, #64ce8d 99%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-decoration: none;
@@ -5360,7 +5357,7 @@ h6 {
 
 /* line 544, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_blog.scss */
 .blog_details a:hover {
-  color: #f0542c;
+  color: #64ce8d;
 }
 
 /* line 549, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_blog.scss */
@@ -5428,7 +5425,7 @@ h6 {
   left: 10px;
   display: block;
   color: #fff;
-  background-color: #f0542c;
+  background-color: #64ce8d;
   padding: 8px 15px;
   border-radius: 5px;
 }
@@ -5656,7 +5653,7 @@ h6 {
 
 /* line 842, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_blog.scss */
 .blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #f0542c;
+  background: #64ce8d;
   color: #fff !important;
   -webkit-text-fill-color: #fff;
   text-decoration: none;
@@ -5904,7 +5901,7 @@ h6 {
 
 /* line 1208, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_blog.scss */
 .single-post-area .blog-author a:hover {
-  color: #f0542c;
+  color: #64ce8d;
 }
 
 /* line 1213, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_blog.scss */
@@ -6333,7 +6330,7 @@ h6 {
 
 /* line 72, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_blog_part.scss */
 .blog_part .single-home-blog .card .card-body a {
-  color: #f0542c;
+  color: #64ce8d;
   text-transform: uppercase;
   -webkit-transition: 0.8s;
   transition: 0.8s;
@@ -6360,7 +6357,7 @@ h6 {
   height: 10px;
   top: 5px;
   left: 0;
-  background-color: #f0542c;
+  background-color: #64ce8d;
   border-radius: 50%;
 }
 
@@ -6514,4 +6511,58 @@ h6 {
 .thumb.info {
   margin: auto;
   text-align: center;
+}
+
+.logo-img {
+  margin: 10px auto;
+}
+
+@media (max-width: 991px) {
+  .logo-img {
+    margin: 0px auto;
+  }
+}
+
+.address_span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+  color: #329f5b;
+}
+
+.address_span:hover {
+  text-decoration: none;
+  text-decoration-color: white;
+  color: #329f5b;
+}
+
+.accordion .card {
+  padding: 0px;
+  border: none;
+  border-radius: 0px;
+  background-color: white;
+  border-bottom: solid 2px #329f5b;
+}
+
+.accordion .card .card-body {
+  padding: 10px 0px 10px 35px;
+}
+
+.accordion .card .card-header {
+  background-color: white;
+  border: none;
+  border-radius: 0px;
+}
+
+.store_address {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.store_address span {
+  margin-left: 10px;
 }
