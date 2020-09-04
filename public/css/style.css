@@ -1345,6 +1345,8 @@ h3 {
   margin-top: -20px;
 }
 
+
+
 @media (max-width: 767px) {
   /* line 96, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_slider.scss */
   .slider_area .single_slider .slider_text h4 {
@@ -3510,6 +3512,12 @@ h3 {
   font-size: 24px;
 }
 
+.text-sub-heading {
+  margin-top: -25px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
 /* line 85, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_elements.scss */
 b,
 sup,
@@ -3688,28 +3696,28 @@ h6 {
 /* line 217, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_elements.scss */
 .genric-btn.primary {
   color: #fff;
-  background: #ff5e13;
+  background: #64ce8d;
   border: 1px solid transparent;
 }
 
 /* line 221, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_elements.scss */
 .genric-btn.primary:hover {
-  color: #ff5e13;
-  border: 1px solid #ff5e13;
+  color: #64ce8d;
+  border: 1px solid #64ce8d;
   background: #fff;
 }
 
 /* line 227, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_elements.scss */
 .genric-btn.primary-border {
-  color: #ff5e13;
-  border: 1px solid #ff5e13;
+  color: #64ce8d;
+  border: 1px solid #64ce8d;
   background: #fff;
 }
 
 /* line 231, ../../Arafath/CL/December/229. Restaurant (Burger)/HTML/scss/_elements.scss */
 .genric-btn.primary-border:hover {
   color: #fff;
-  background: #ff5e13;
+  background: #64ce8d;
   border: 1px solid transparent;
 }
 
@@ -6565,4 +6573,48 @@ h6 {
 
 .store_address span {
   margin-left: 10px;
+}
+
+.bradcam_area h3 {
+  font-size: 30px;
+  font-family: 'Paytone One', sans-serif;
+  /* font-family: 'Pacifico', cursive; */
+  color: white;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .no-mobile {
+    display: none;
+  }
+}
+
+.barista-class {
+  clear: both;
+}
+
+.float-right {
+  float: right;
+}
+
+.sample-text-area.fix-padding {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.sample-text-area {
+  clear: both;
+}
+
+.img-class {
+  margin-top: 40px;
+}
+
+.img-class img {
+  width: 100%;
+  height: auto;
+}
+
+.margin-bottom {
+  margin-bottom: 70px;
 }
